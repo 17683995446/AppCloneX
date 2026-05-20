@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Disable specific checks that don't apply -->
+    <issue id="ObsoleteLintCustomCheck" severity="ignore" />
+    <issue id="MissingTranslation" severity="ignore" />
+
+    <!-- Enable strict checks -->
+    <issue id="HardcodedText" severity="warning" />
+    <issue id="HardcodedColor" severity="warning" />
+    <issue id="UnusedResources" severity="warning" />
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+</lint>

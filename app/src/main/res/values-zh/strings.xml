@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">AppCloneX</string>
+    
+    <!-- Common -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="search">搜索</string>
+    <string name="loading">加载中…</string>
+    <string name="error">错误</string>
+    <string name="success">成功</string>
+    <string name="retry">重试</string>
+    <string name="close">关闭</string>
+    <string name="confirm">确认</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">首页</string>
+    <string name="nav_profiles">配置</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_dashboard">仪表盘</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">应用克隆</string>
+    <string name="home_subtitle">克隆应用并隔离数据</string>
+    <string name="home_search_hint">搜索应用…</string>
+    <string name="home_no_apps">未找到应用</string>
+    <string name="home_installed_apps">已安装应用</string>
+    <string name="home_cloned_apps">已克隆应用</string>
+    
+    <!-- Clone -->
+    <string name="clone_title">克隆应用</string>
+    <string name="clone_progress">正在克隆…</string>
+    <string name="clone_success">应用克隆成功</string>
+    <string name="clone_failed">应用克隆失败</string>
+    <string name="clone_confirm">克隆 %s？</string>
+    <string name="clone_creating_profile">正在创建配置…</string>
+    <string name="clone_installing">正在安装…</string>
+    <string name="clone_configuring">正在配置…</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">配置</string>
+    <string name="profile_name">配置名称</string>
+    <string name="profile_create">创建配置</string>
+    <string name="profile_edit">编辑配置</string>
+    <string name="profile_delete">删除配置</string>
+    <string name="profile_delete_confirm">删除配置\"%s\"？此操作无法撤销。</string>
+    <string name="profile_default">默认</string>
+    <string name="profile_no_profiles">暂无配置</string>
+    <string name="profile_create_first">创建您的第一个配置开始使用</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_general">通用</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_dark_theme">深色主题</string>
+    <string name="settings_dark_theme_desc">启用深色模式</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_desc">更改应用语言</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_desc">启用推送通知</string>
+    <string name="settings_auto_freeze">自动冻结</string>
+    <string name="settings_auto_freeze_desc">不使用时自动冻结克隆应用</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_licenses">开源许可</string>
+    <string name="settings_privacy">隐私政策</string>
+    
+    <!-- Language -->
+    <string name="lang_english">English</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_system">跟随系统</string>
+    
+    <!-- Shizuku -->
+    <string name="shizuku_title">Shizuku</string>
+    <string name="shizuku_required">需要 Shizuku</string>
+    <string name="shizuku_required_desc">AppCloneX 需要 Shizuku 才能正常运行。请先安装并激活 Shizuku。</string>
+    <string name="shizuku_not_running">Shizuku 未运行</string>
+    <string name="shizuku_permission_denied">权限被拒绝</string>
+    <string name="shizuku_request_permission">请求权限</string>
+    <string name="shizuku_open_settings">打开 Shizuku</string>
+    <string name="shizuku_connected">Shizuku 已连接</string>
+    
+    <!-- Freeze -->
+    <string name="freeze_title">冻结应用</string>
+    <string name="freeze_action">冻结</string>
+    <string name="unfreeze_action">解冻</string>
+    <string name="freeze_all">全部冻结</string>
+    <string name="unfreeze_all">全部解冻</string>
+    <string name="freeze_success">应用已冻结</string>
+    <string name="unfreeze_success">应用已解冻</string>
+    <string name="freeze_failed">冻结失败</string>
+    <string name="unfreeze_failed">解冻失败</string>
+    <string name="frozen_apps">已冻结</string>
+    <string name="active_apps">运行中</string>
+    
+    <!-- Sandbox -->
+    <string name="sandbox_title">沙盒</string>
+    <string name="sandbox_create">创建沙盒</string>
+    <string name="sandbox_clear">清除沙盒</string>
+    <string name="sandbox_export">导出数据</string>
+    <string name="sandbox_import">导入数据</string>
+    <string name="sandbox_size">大小：%s</string>
+    <string name="sandbox_apps">应用：%d 个</string>
+    <string name="sandbox_clear_confirm">清除所有沙盒数据？这将重置应用。</string>
+    <string name="sandbox_cleared">沙盒已清除</string>
+    <string name="sandbox_export_success">数据导出成功</string>
+    <string name="sandbox_import_success">数据导入成功</string>
+    
+    <!-- Backup -->
+    <string name="backup_title">备份</string>
+    <string name="backup_create">创建备份</string>
+    <string name="backup_restore">恢复备份</string>
+    <string name="backup_progress">正在备份…</string>
+    <string name="backup_success">备份创建成功</string>
+    <string name="backup_failed">备份失败</string>
+    <string name="restore_progress">正在恢复…</string>
+    <string name="restore_success">备份恢复成功</string>
+    <string name="restore_failed">恢复失败</string>
+    <string name="backup_no_backups">暂无备份</string>
+    <string name="backup_delete_confirm">删除此备份？</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">仪表盘</string>
+    <string name="dashboard_stats">统计数据</string>
+    <string name="dashboard_total_clones">克隆总数</string>
+    <string name="dashboard_active_profiles">活跃配置</string>
+    <string name="dashboard_frozen_apps">已冻结应用</string>
+    <string name="dashboard_storage_used">已用存储</string>
+    <string name="dashboard_recent_activity">最近活动</string>
+    <string name="dashboard_top_apps">最常用应用</string>
+    <string name="dashboard_no_activity">暂无最近活动</string>
+    
+    <!-- Widget -->
+    <string name="widget_title">AppCloneX</string>
+    <string name="widget_new_profile">新建配置</string>
+    <string name="widget_quick_clone">快速克隆</string>
+    <string name="widget_freeze_all">全部冻结</string>
+    <string name="widget_open_app">打开应用</string>
+    
+    <!-- Notifications -->
+    <string name="notif_clone_complete">克隆完成</string>
+    <string name="notif_clone_complete_desc">%s 已成功克隆</string>
+    <string name="notif_freeze_complete">冻结完成</string>
+    <string name="notif_backup_complete">备份完成</string>
+    
+    <!-- Errors -->
+    <string name="error_unknown">发生未知错误</string>
+    <string name="error_shizuku_not_found">未找到 Shizuku。请先安装 Shizuku。</string>
+    <string name="error_permission_denied">权限被拒绝。请授予所需权限。</string>
+    <string name="error_app_not_found">未找到应用</string>
+    <string name="error_insufficient_storage">存储空间不足</string>
+    <string name="error_clone_limit">已达到最大克隆数量限制</string>
+    
+    <!-- Empty States -->
+    <string name="empty_no_apps">暂无应用</string>
+    <string name="empty_no_profiles">暂无配置</string>
+    <string name="empty_no_backups">暂无备份</string>
+    <string name="empty_search_result">未找到\"%s\"相关结果</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">欢迎使用 AppCloneX</string>
+    <string name="onboarding_welcome_desc">克隆您喜爱的应用，创建独立的数据空间</string>
+    <string name="onboarding_feature_1">多配置管理</string>
+    <string name="onboarding_feature_1_desc">为工作、个人和游戏创建不同的配置</string>
+    <string name="onboarding_feature_2">数据隔离</string>
+    <string name="onboarding_feature_2_desc">每个克隆拥有独立数据，完全隔离</string>
+    <string name="onboarding_feature_3">应用冻结</string>
+    <string name="onboarding_feature_3_desc">冻结不用的克隆以节省电量和资源</string>
+    <string name="onboarding_get_started">开始使用</string>
+    <string name="onboarding_skip">跳过</string>
+    <string name="onboarding_next">下一步</string>
+    
+    <!-- About -->
+    <string name="about_title">关于 AppCloneX</string>
+    <string name="about_description">AppCloneX 是一款强大的应用克隆工具，允许您运行同一应用的多个实例，并拥有独立的数据空间。</string>
+    <string name="about_features">主要功能</string>
+    <string name="about_feature_clone">克隆任意应用并隔离数据</string>
+    <string name="about_feature_profile">多配置支持不同使用场景</string>
+    <string name="about_feature_freeze">冻结应用节省资源</string>
+    <string name="about_feature_backup">备份和恢复应用数据</string>
+    <string name="about_opensource">开源项目</string>
+    <string name="about_opensource_desc">AppCloneX 是开源项目，使用以下开源库：</string>
+
+    <!-- V25: WebDAV/Nextcloud Cloud Backup -->
+    <string name="webdav_settings_title">WebDAV 设置</string>
+    <string name="webdav_server_url">服务器地址</string>
+    <string name="webdav_username">用户名</string>
+    <string name="webdav_password">密码</string>
+    <string name="webdav_base_path">基础路径</string>
+    <string name="webdav_test_connection">测试连接</string>
+    <string name="webdav_connection_success">连接成功</string>
+    <string name="webdav_connection_failed">连接失败：%1$s</string>
+    <string name="webdav_sync_progress">正在同步… %1$d%%</string>
+    <string name="nextcloud_settings_title">Nextcloud 设置</string>
+    <string name="nextcloud_app_password">应用密码</string>
+    <string name="nextcloud_share_link">分享链接</string>
+    <string name="nextcloud_server_info">服务器信息</string>
+    <string name="nextcloud_storage_quota">存储空间：%1$s / %2$s</string>
+
+    <!-- V25: Plugin System -->
+    <string name="plugin_manager_title">插件管理</string>
+    <string name="plugin_install">安装插件</string>
+    <string name="plugin_uninstall">卸载</string>
+    <string name="plugin_enable">启用</string>
+    <string name="plugin_disable">禁用</string>
+    <string name="plugin_update">更新</string>
+    <string name="plugin_permissions">权限</string>
+    <string name="plugin_settings">插件设置</string>
+    <string name="plugin_no_plugins">暂无已安装的插件</string>
+    <string name="plugin_install_from_url">从 URL 安装</string>
+    <string name="plugin_install_success">插件安装成功</string>
+    <string name="plugin_install_failed">插件安装失败：%1$s</string>
+    <string name="plugin_version">版本 %1$s</string>
+    <string name="plugin_author">作者：%1$s</string>
+    <string name="plugin_state_enabled">已启用</string>
+    <string name="plugin_state_disabled">已禁用</string>
+    <string name="plugin_state_error">错误</string>
+    <string name="plugin_search_hint">搜索插件…</string>
+
+    <!-- V25: Notification Center -->
+    <string name="notification_center_title">通知</string>
+    <string name="notification_mark_all_read">全部标为已读</string>
+    <string name="notification_clear_all">清除全部</string>
+    <string name="notification_empty">暂无通知</string>
+    <string name="notification_empty_filtered">没有符合筛选条件的通知</string>
+    <string name="notification_unread_count">%1$d 条未读</string>
+    <string name="notification_urgent_count">%1$d 条紧急</string>
+    <string name="notification_delete_confirm">删除此通知？</string>
+    <string name="notification_clear_confirm">清除所有通知？</string>
+    <string name="notification_category_clone">克隆</string>
+    <string name="notification_category_backup">备份</string>
+    <string name="notification_category_freeze">冻结</string>
+    <string name="notification_category_performance">性能</string>
+    <string name="notification_category_security">安全</string>
+    <string name="notification_category_system">系统</string>
+    <string name="notification_category_update">更新</string>
+    <string name="notification_category_plugin">插件</string>
+    <string name="notification_priority_low">低</string>
+    <string name="notification_priority_normal">普通</string>
+    <string name="notification_priority_high">高</string>
+    <string name="notification_priority_urgent">紧急</string>
+    <string name="notification_dismissed">通知已消除</string>
+    <string name="notification_preferences_title">通知偏好</string>
+    <string name="notification_quiet_hours">免打扰时段</string>
+    <string name="notification_sound">通知铃声</string>
+    <string name="notification_vibration">振动</string>
+    <string name="notification_max_per_day">每日上限：%1$d 条</string>
+
+    <!-- V25: Accessibility Enhancements -->
+    <string name="accessibility_chart_description">显示 %1$s 数据的图表</string>
+    <string name="accessibility_metric_card">%1$s：%2$s，%3$s</string>
+    <string name="accessibility_navigation_item">%1$s，%2$s</string>
+    <string name="accessibility_switch">%1$s 开关，当前%2$s</string>
+    <string name="accessibility_progress">加载中，已完成 %1$d%%</string>
+    <string name="accessibility_action_button">%1$s 按钮</string>
+    <string name="accessibility_notification_item">%1$s 通知，%2$s 优先级，%3$s</string>
+    <string name="accessibility_plugin_item">%1$s 插件，版本 %2$s，%3$s</string>
+</resources>

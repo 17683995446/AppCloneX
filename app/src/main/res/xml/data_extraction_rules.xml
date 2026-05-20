@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  数据提取规则 - 控制云端备份和本地传输包含/排除的数据
+  Data Extraction Rules - Controls what data is included/excluded from cloud backup and local transfers
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- 排除所有敏感数据 -->
+        <!-- Exclude all sensitive data -->
+        <exclude domain="sharedpref" path="."/>
+        <exclude domain="database" path="."/>
+        <exclude domain="file" path="."/>
+        <exclude domain="external" path="."/>
+        <exclude domain="root" path="."/>
+    </cloud-backup>
+    <device-transfer>
+        <!-- 同样排除所有敏感数据 -->
+        <!-- Also exclude all sensitive data -->
+        <exclude domain="sharedpref" path="."/>
+        <exclude domain="database" path="."/>
+        <exclude domain="file" path="."/>
+        <exclude domain="external" path="."/>
+        <exclude domain="root" path="."/>
+    </device-transfer>
+</data-extraction-rules>

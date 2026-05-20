@@ -1,0 +1,127 @@
+# ============================================================================
+# AppCloneX EditorConfig
+# 统一编辑器配置，适用于 IntelliJ IDEA / Android Studio / VS Code
+# ============================================================================
+
+# 顶层配置，适用于所有文件
+root = true
+
+# ---------------------------------------------------------------------------
+# 所有文件通用规则
+# ---------------------------------------------------------------------------
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# ---------------------------------------------------------------------------
+# Kotlin 源码文件
+# ---------------------------------------------------------------------------
+[*.{kt,kts}]
+indent_size = 4
+indent_style = space
+max_line_length = 120
+
+# KtLint 标准配置
+ktlint_code_style = android_studio
+ktlint_standard = enabled
+
+# 启用标准规则集
+ktlint_standard_annotation = enabled
+ktlint_standard_argument-list-wrapping = enabled
+ktlint_standard_chain-wrapping = enabled
+ktlint_standard_class-naming = enabled
+ktlint_standard_class-signature = enabled
+ktlint_standard_comment-wrapping = enabled
+ktlint_standard_condition-wrapping = enabled
+ktlint_standard_enum-entry-name-case = enabled
+ktlint_standard_filename = enabled
+ktlint_standard_final-newline = enabled
+ktlint_standard_import-ordering = enabled
+ktlint_standard_indentation = enabled
+ktlint_standard_keyword-spacing = enabled
+ktlint_standard_max-line-length = enabled
+ktlint_standard_modifier-order = enabled
+ktlint_standard_multi-line-if-else = enabled
+ktlint_standard_no-blank-line-in-list = enabled
+ktlint_standard_no-empty-class-body = enabled
+ktlint_standard_no-empty-first-line-in-method-block = enabled
+ktlint_standard_no-line-break-after-else = enabled
+ktlint_standard_no-line-break-before-assignment = enabled
+ktlint_standard_no-multi-spaces = enabled
+ktlint_standard_no-semi = enabled
+ktlint_standard_no-trailing-spaces = enabled
+ktlint_standard_no-unnecessary-imports = enabled
+ktlint_standard_no-unused-imports = enabled
+ktlint_standard_no-wildcard-imports = enabled
+ktlint_standard_package-name = enabled
+ktlint_standard_parameter-list-wrapping = enabled
+ktlint_standard_parameter-wrapping = enabled
+ktlint_standard_spacing-around-angle-bracket = enabled
+ktlint_standard_spacing-around-colon = enabled
+ktlint_standard_spacing-around-comma = enabled
+ktlint_standard_spacing-around-curly-bracket = enabled
+ktlint_standard_spacing-around-dot = enabled
+ktlint_standard-spacing-around-keyword = enabled
+ktlint_standard-spacing-around-operators = enabled
+ktlint_standard-spacing-between-declarations-with-annotations = enabled
+ktlint_standard-spacing-between-declarations-with-comments = enabled
+ktlint_standard_string-template = enabled
+ktlint_standard_trailing-comma-on-call-site = disabled
+ktlint_standard_trailing-comma-on-declaration-site = disabled
+ktlint_standard_type-argument-list-wrapping = enabled
+ktlint_standard_type-parameter-list-wrapping = enabled
+ktlint_standard_unnecessary-parentheses-before-trailing-lambda = enabled
+ktlint_standard_wrapping = enabled
+
+# 禁用特定规则（在特定场景下放宽限制）
+# 允许测试文件中使用通配符导入
+ktlint_standard_no-wildcard-imports = enabled
+
+# ---------------------------------------------------------------------------
+# XML 文件
+# ---------------------------------------------------------------------------
+[*.xml]
+indent_size = 4
+indent_style = space
+
+# ---------------------------------------------------------------------------
+# Gradle 文件
+# ---------------------------------------------------------------------------
+[*.gradle]
+indent_size = 4
+indent_style = space
+
+[*.gradle.kts]
+indent_size = 4
+indent_style = space
+
+# ---------------------------------------------------------------------------
+# Markdown 文件
+# ---------------------------------------------------------------------------
+[*.md]
+trim_trailing_whitespace = false
+
+# ---------------------------------------------------------------------------
+# YAML / JSON 文件
+# ---------------------------------------------------------------------------
+[*.{yml,yaml,json}]
+indent_size = 2
+indent_style = space
+
+# ---------------------------------------------------------------------------
+# Shell 脚本
+# ---------------------------------------------------------------------------
+[*.sh]
+indent_size = 4
+indent_style = space
+
+# ---------------------------------------------------------------------------
+# .properties 文件
+# ---------------------------------------------------------------------------
+[*.properties]
+indent_size = 4
+indent_style = space

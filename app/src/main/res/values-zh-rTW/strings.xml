@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">AppCloneX</string>
+    
+    <!-- Common -->
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">刪除</string>
+    <string name="edit">編輯</string>
+    <string name="save">儲存</string>
+    <string name="search">搜尋</string>
+    <string name="loading">載入中…</string>
+    <string name="error">錯誤</string>
+    <string name="success">成功</string>
+    <string name="retry">重試</string>
+    <string name="close">關閉</string>
+    <string name="confirm">確認</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">首頁</string>
+    <string name="nav_profiles">設定檔</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_dashboard">儀表板</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">應用程式分身</string>
+    <string name="home_subtitle">分身應用程式並隔離資料</string>
+    <string name="home_search_hint">搜尋應用程式…</string>
+    <string name="home_no_apps">找不到應用程式</string>
+    <string name="home_installed_apps">已安裝應用程式</string>
+    <string name="home_cloned_apps">已分身應用程式</string>
+    
+    <!-- Clone -->
+    <string name="clone_title">分身應用程式</string>
+    <string name="clone_progress">正在分身…</string>
+    <string name="clone_success">應用程式分身成功</string>
+    <string name="clone_failed">應用程式分身失敗</string>
+    <string name="clone_confirm">分身 %s？</string>
+    <string name="clone_creating_profile">正在建立設定檔…</string>
+    <string name="clone_installing">正在安裝…</string>
+    <string name="clone_configuring">正在設定…</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">設定檔</string>
+    <string name="profile_name">設定檔名稱</string>
+    <string name="profile_create">建立設定檔</string>
+    <string name="profile_edit">編輯設定檔</string>
+    <string name="profile_delete">刪除設定檔</string>
+    <string name="profile_delete_confirm">刪除設定檔「%s」？此操作無法復原。</string>
+    <string name="profile_default">預設</string>
+    <string name="profile_no_profiles">尚無設定檔</string>
+    <string name="profile_create_first">建立您的第一個設定檔開始使用</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_general">一般</string>
+    <string name="settings_appearance">外觀</string>
+    <string name="settings_about">關於</string>
+    <string name="settings_dark_theme">深色主題</string>
+    <string name="settings_dark_theme_desc">啟用深色模式</string>
+    <string name="settings_language">語言</string>
+    <string name="settings_language_desc">變更應用程式語言</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_desc">啟用推播通知</string>
+    <string name="settings_auto_freeze">自動凍結</string>
+    <string name="settings_auto_freeze_desc">不使用時自動凍結分身應用程式</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_licenses">開源授權</string>
+    <string name="settings_privacy">隱私權政策</string>
+    
+    <!-- Language -->
+    <string name="lang_english">English</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_system">跟隨系統</string>
+    
+    <!-- Shizuku -->
+    <string name="shizuku_title">Shizuku</string>
+    <string name="shizuku_required">需要 Shizuku</string>
+    <string name="shizuku_required_desc">AppCloneX 需要 Shizuku 才能正常運作。請先安裝並啟用 Shizuku。</string>
+    <string name="shizuku_not_running">Shizuku 未執行</string>
+    <string name="shizuku_permission_denied">權限被拒絕</string>
+    <string name="shizuku_request_permission">請求權限</string>
+    <string name="shizuku_open_settings">開啟 Shizuku</string>
+    <string name="shizuku_connected">Shizuku 已連線</string>
+    
+    <!-- Freeze -->
+    <string name="freeze_title">凍結應用程式</string>
+    <string name="freeze_action">凍結</string>
+    <string name="unfreeze_action">解凍</string>
+    <string name="freeze_all">全部凍結</string>
+    <string name="unfreeze_all">全部解凍</string>
+    <string name="freeze_success">應用程式已凍結</string>
+    <string name="unfreeze_success">應用程式已解凍</string>
+    <string name="freeze_failed">凍結失敗</string>
+    <string name="unfreeze_failed">解凍失敗</string>
+    <string name="frozen_apps">已凍結</string>
+    <string name="active_apps">執行中</string>
+    
+    <!-- App Lock -->
+    <string name="applock_title">應用程式鎖定</string>
+    <string name="applock_enable">啟用應用程式鎖定</string>
+    <string name="applock_enable_desc">使用生物辨識或 PIN 碼保護應用程式</string>
+    <string name="applock_biometric">生物辨識</string>
+    <string name="applock_pin">PIN 碼</string>
+    <string name="applock_pattern">圖案</string>
+    <string name="applock_setup_pin">設定 PIN 碼</string>
+    <string name="applock_confirm_pin">確認 PIN 碼</string>
+    <string name="applock_pin_mismatch">PIN 碼不符</string>
+    <string name="applock_wrong_pin">PIN 碼錯誤</string>
+    <string name="applock_authenticate">驗證</string>
+    <string name="applock_use_biometric">使用生物辨識</string>
+    <string name="applock_use_pin">使用 PIN 碼</string>
+    <string name="applock_auto_lock">自動鎖定</string>
+    <string name="applock_auto_lock_desc">背景執行後自動鎖定</string>
+    <string name="applock_timeout">自動鎖定逾時</string>
+    <string name="applock_timeout_immediate">立即</string>
+    <string name="applock_timeout_30s">30 秒</string>
+    <string name="applock_timeout_1m">1 分鐘</string>
+    <string name="applock_timeout_5m">5 分鐘</string>
+    
+    <!-- Widget -->
+    <string name="widget_title">快速操作</string>
+    <string name="widget_description">快速凍結或解凍應用程式</string>
+    <string name="widget_no_frozen">沒有凍結的應用程式</string>
+    <string name="widget_tap_to_config">輕觸以設定</string>
+    
+    <!-- Errors -->
+    <string name="error_generic">發生錯誤</string>
+    <string name="error_network">網路錯誤</string>
+    <string name="error_no_internet">無網路連線</string>
+    <string name="error_timeout">連線逾時</string>
+    <string name="error_shizuku_not_installed">Shizuku 未安裝</string>
+    <string name="error_shizuku_not_running">Shizuku 未執行</string>
+    <string name="error_permission_denied">權限被拒絕</string>
+    <string name="error_profile_not_found">找不到設定檔</string>
+    <string name="error_app_not_found">找不到應用程式</string>
+    <string name="error_clone_failed">分身失敗</string>
+    <string name="error_delete_failed">刪除失敗</string>
+    <string name="error_freeze_failed">凍結失敗</string>
+    <string name="error_unfreeze_failed">解凍失敗</string>
+    <string name="error_launch_failed">啟動失敗</string>
+    <string name="error_storage_full">儲存空間不足</string>
+    <string name="error_low_memory">記憶體不足</string>
+    
+    <!-- About -->
+    <string name="about_title">關於</string>
+    <string name="about_app_name">AppCloneX</string>
+    <string name="about_version">版本 %s</string>
+    <string name="about_description">專業的 Android 應用程式分身工具</string>
+    <string name="about_copyright">© 2025 AppCloneX. 保留所有權利。</string>
+    <string name="about_oss">開源授權</string>
+    <string name="about_privacy">隱私權政策</string>
+    <string name="about_terms">服務條款</string>
+    <string name="about_feedback">意見回饋</string>
+    <string name="about_rate">評分應用程式</string>
+    <string name="about_share">分享應用程式</string>
+    
+    <!-- Automation -->
+    <string name="automation_title">自動化</string>
+    <string name="automation_rules">自動化規則</string>
+    <string name="automation_create_rule">建立規則</string>
+    <string name="automation_edit_rule">編輯規則</string>
+    <string name="automation_delete_rule">刪除規則</string>
+    <string name="automation_rule_name">規則名稱</string>
+    <string name="automation_trigger">觸發條件</string>
+    <string name="automation_action">執行動作</string>
+    <string name="automation_time">時間</string>
+    <string name="automation_location">位置</string>
+    <string name="automation_battery">電量</string>
+    <string name="automation_wifi">Wi-Fi</string>
+    <string name="automation_enabled">已啟用</string>
+    <string name="automation_disabled">已停用</string>
+    
+    <!-- Backup -->
+    <string name="backup_title">備份與還原</string>
+    <string name="backup_create">建立備份</string>
+    <string name="backup_restore">還原備份</string>
+    <string name="backup_export">匯出設定</string>
+    <string name="backup_import">匯入設定</string>
+    <string name="backup_last">上次備份：%s</string>
+    <string name="backup_never">從未備份</string>
+    <string name="backup_success">備份成功</string>
+    <string name="backup_failed">備份失敗</string>
+    <string name="restore_success">還原成功</string>
+    <string name="restore_failed">還原失敗</string>
+    
+    <!-- Stats -->
+    <string name="stats_title">統計資料</string>
+    <string name="stats_profiles">設定檔</string>
+    <string name="stats_cloned_apps">分身應用程式</string>
+    <string name="stats_storage_used">已使用儲存空間</string>
+    <string name="stats_memory_used">已使用記憶體</string>
+    <string name="stats_clones_created">已建立分身</string>
+    <string name="stats_most_cloned">最常分身</string>
+    
+    <!-- Quick Actions -->
+    <string name="quick_actions">快速操作</string>
+    <string name="quick_clone">快速分身</string>
+    <string name="quick_freeze">快速凍結</string>
+    <string name="quick_launch">快速啟動</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_loading">載入中…</string>
+    <string name="dialog_please_wait">請稍候</string>
+    <string name="dialog_cloning">正在分身應用程式…</string>
+    <string name="dialog_deleting">正在刪除…</string>
+    <string name="dialog_uninstalling">正在解除安裝…</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_service_desc">用於自動化操作和應用程式監控</string>
+    <string name="accessibility_enable">啟用輔助功能</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_general">一般通知</string>
+    <string name="notification_channel_clone">分身通知</string>
+    <string name="notification_clone_complete">分身完成</string>
+    <string name="notification_clone_failed">分身失敗</string>
+    <string name="notification_app_frozen">應用程式已凍結</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">歡迎使用 AppCloneX</string>
+    <string name="onboarding_desc">建立應用程式分身，隔離資料，保護隱私</string>
+    <string name="onboarding_step1">安裝 Shizuku</string>
+    <string name="onboarding_step1_desc">Shizuku 是必要的前置應用程式</string>
+    <string name="onboarding_step2">授權權限</string>
+    <string name="onboarding_step2_desc">授予 Shizuku 權限以管理應用程式</string>
+    <string name="onboarding_step3">開始分身</string>
+    <string name="onboarding_step3_desc">建立設定檔並分身您的應用程式</string>
+    <string name="onboarding_get_started">開始使用</string>
+    <string name="onboarding_skip">跳過</string>
+    <string name="onboarding_next">下一步</string>
+    
+    <!-- V21 New Strings -->
+    <string name="feedback_title">意見回饋</string>
+    <string name="feedback_desc">回報問題或建議新功能</string>
+    <string name="feedback_type_bug">錯誤回報</string>
+    <string name="feedback_type_feature">功能建議</string>
+    <string name="feedback_type_performance">效能問題</string>
+    <string name="feedback_submit">提交意見</string>
+    <string name="feedback_success">感謝您的意見回饋！</string>
+    <string name="health_status">健康狀態</string>
+    <string name="health_good">良好</string>
+    <string name="health_warning">警告</string>
+    <string name="health_critical">嚴重</string>
+    <string name="memory_usage">記憶體使用量</string>
+    <string name="storage_usage">儲存空間使用量</string>
+
+    <!-- V25: WebDAV/Nextcloud Cloud Backup -->
+    <string name="webdav_settings_title">WebDAV 設定</string>
+    <string name="webdav_server_url">伺服器位址</string>
+    <string name="webdav_username">使用者名稱</string>
+    <string name="webdav_password">密碼</string>
+    <string name="webdav_base_path">基礎路徑</string>
+    <string name="webdav_test_connection">測試連線</string>
+    <string name="webdav_connection_success">連線成功</string>
+    <string name="webdav_connection_failed">連線失敗：%1$s</string>
+    <string name="webdav_sync_progress">正在同步… %1$d%%</string>
+    <string name="nextcloud_settings_title">Nextcloud 設定</string>
+    <string name="nextcloud_app_password">應用程式密碼</string>
+    <string name="nextcloud_share_link">分享連結</string>
+    <string name="nextcloud_server_info">伺服器資訊</string>
+    <string name="nextcloud_storage_quota">儲存空間：%1$s / %2$s</string>
+
+    <!-- V25: Plugin System -->
+    <string name="plugin_manager_title">外掛管理</string>
+    <string name="plugin_install">安裝外掛</string>
+    <string name="plugin_uninstall">解除安裝</string>
+    <string name="plugin_enable">啟用</string>
+    <string name="plugin_disable">停用</string>
+    <string name="plugin_update">更新</string>
+    <string name="plugin_permissions">權限</string>
+    <string name="plugin_settings">外掛設定</string>
+    <string name="plugin_no_plugins">尚無已安裝的外掛</string>
+    <string name="plugin_install_from_url">從 URL 安裝</string>
+    <string name="plugin_install_success">外掛安裝成功</string>
+    <string name="plugin_install_failed">外掛安裝失敗：%1$s</string>
+    <string name="plugin_version">版本 %1$s</string>
+    <string name="plugin_author">作者：%1$s</string>
+    <string name="plugin_state_enabled">已啟用</string>
+    <string name="plugin_state_disabled">已停用</string>
+    <string name="plugin_state_error">錯誤</string>
+    <string name="plugin_search_hint">搜尋外掛…</string>
+
+    <!-- V25: Notification Center -->
+    <string name="notification_center_title">通知</string>
+    <string name="notification_mark_all_read">全部標為已讀</string>
+    <string name="notification_clear_all">清除全部</string>
+    <string name="notification_empty">暫無通知</string>
+    <string name="notification_empty_filtered">沒有符合篩選條件的通知</string>
+    <string name="notification_unread_count">%1$d 則未讀</string>
+    <string name="notification_urgent_count">%1$d 則緊急</string>
+    <string name="notification_delete_confirm">刪除此通知？</string>
+    <string name="notification_clear_confirm">清除所有通知？</string>
+    <string name="notification_category_clone">分身</string>
+    <string name="notification_category_backup">備份</string>
+    <string name="notification_category_freeze">凍結</string>
+    <string name="notification_category_performance">效能</string>
+    <string name="notification_category_security">安全性</string>
+    <string name="notification_category_system">系統</string>
+    <string name="notification_category_update">更新</string>
+    <string name="notification_category_plugin">外掛</string>
+    <string name="notification_priority_low">低</string>
+    <string name="notification_priority_normal">普通</string>
+    <string name="notification_priority_high">高</string>
+    <string name="notification_priority_urgent">緊急</string>
+    <string name="notification_dismissed">通知已關閉</string>
+    <string name="notification_preferences_title">通知偏好設定</string>
+    <string name="notification_quiet_hours">勿擾時段</string>
+    <string name="notification_sound">通知鈴聲</string>
+    <string name="notification_vibration">震動</string>
+    <string name="notification_max_per_day">每日上限：%1$d 則</string>
+
+    <!-- V25: Accessibility Enhancements -->
+    <string name="accessibility_chart_description">顯示 %1$s 資料的圖表</string>
+    <string name="accessibility_metric_card">%1$s：%2$s，%3$s</string>
+    <string name="accessibility_navigation_item">%1$s，%2$s</string>
+    <string name="accessibility_switch">%1$s 開關，目前%2$s</string>
+    <string name="accessibility_progress">載入中，已完成 %1$d%%</string>
+    <string name="accessibility_action_button">%1$s 按鈕</string>
+    <string name="accessibility_notification_item">%1$s 通知，%2$s 優先級，%3$s</string>
+    <string name="accessibility_plugin_item">%1$s 外掛，版本 %2$s，%3$s</string>
+</resources>
